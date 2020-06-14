@@ -1,0 +1,23 @@
+During writing automated test I faced coulpe of bugs of the Bayzat web site, I think many of them are due to UI changes, you can see my comments about those bugs as follows:
+
+1- According to sended task there wanted to add new employee using toolbar button above employee list under "View Team" section, 
+    but it was not possible to do like that, because there is no any button to add new employee above employee list on "View Team" section
+    So, instead of this I go to "Add Employee" section and add new employee from there!
+
+2- According to 5th step of sended task, there were not possible to add single employee two times, when I add totaly same one two times, 
+    it gives an error which mentioned the same e-mail was already registered. I mean user could not add totally same employee, beacuse application
+    does not allow to add employees which has same e-mail. So I should throw an exception to pass those line of codes and close the opened 
+    error/warning pop-up. 
+
+3- According to 8th step of sended task, there were no any "Delete" button shown up near search field. Delete button is shown above of employee list when user check the 
+    accurate checkbox. So for this reason I delete newly added employee after I check the accurate newly added employee. 
+
+4- According to 10th step of sended task, there mentioned that when user Loged out from application "www.bayzat.com" page is launched! But when user loged out from left menu,
+    user is navigated to "https://www.bayzat.com/enterprise/dashboard/login" page. In that login page there were not exist Login link
+    Becuse in the 10th step of task wanted me to verify the login link is exist, I opened/visit "www.bayzat.com" page and verify the existancy of the Login link.
+
+5- According to 13th step of sended task, login credentials were shared with me and wanted to application by those credentials, it is OK for me and I already login with those credentions,
+    But, during my usage, someone else were also login to application with those credentials and played with Employee list. This cause some problem for me because in my code I check the list
+    and verify the list is exist(This were wanted to me from your task)! But when the other user comes and delete the old employee it causes my code fail! I add video record feature
+    and run my code once to show my code is completely works well. So if it will fail during your run be sure to nothing will be changed or not any deletion by anyone else please.
+
