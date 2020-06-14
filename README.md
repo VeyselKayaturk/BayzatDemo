@@ -1,0 +1,3 @@
+# BayzatDemo
+You can see my test run record and its pass report under videos folder by downloding mp4 formatted video
+Best wishes...
